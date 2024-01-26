@@ -1,0 +1,79 @@
+
+
+/*.contact {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #efca00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  font-weight: 700;
+}*/
+.contact-bar {
+  display: flex;
+  justify-content:space-between;
+  color: #080808;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #efca00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .75rem 0;
+  font-weight: 700;
+  font-size: 20px; /* Ajustez la taille des icônes selon vos besoins */
+  margin-right: 8px;
+}
+
+.contact-info {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contact-tlf{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.lien{
+  justify-content: space-between;
+  float: left;
+}
+.contact-info img {
+  height: 20px; /* adjust as needed */
+  margin-right: 10px; 
+}
+.contact-tlf img {
+  height: 20px; 
+  margin-right: 10px; 
+}
+.text {
+  flex: 1; 
+}
+.fa-brands.fa-facebook {
+  margin-right: 10px; }
+
+.fa-brands.fa-youtube {
+  
+  margin-right: 10px; 
+}
+
+.fa-brands.fa-instagram {
+  
+  margin-right: 10px;
+}
+
+.fa-brands.fa-tiktok {
+ 
+  margin-right: 10px; 
+}
+
+
+
