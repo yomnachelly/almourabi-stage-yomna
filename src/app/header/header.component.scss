@@ -25,20 +25,23 @@
   font-size: 20px; 
   margin-right: 8px;
   flex-wrap: nowrap;
-  flex-direction: row; /* Force la direction de flexion à être en ligne (horizontale) */
+  flex-direction: row; 
   align-items: center;
 }
 
 .contact-info {
-  float: right;
+  float: left;
   display: flex;
   flex-direction: column;
   flex-direction: row;
   align-items: center;
   margin-bottom: 10px;
+  gap: 20px;
 }
 .contact-tlf{
-  float: right;
+  gap: 20px;
+  //font-size: 18px;
+  float: left;
   display: flex;
   flex-direction: column;
   flex-direction: row;
@@ -47,7 +50,8 @@
 }
 .lien{
   justify-content: space-between;
-  float: left;
+  align-items: center;
+  margin-left: 45%;
 }
 .contact-info img {
   height: 20px; 
