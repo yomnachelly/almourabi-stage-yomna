@@ -22,8 +22,11 @@
   align-items: center;
   padding: .75rem 0;
   font-weight: 700;
-  font-size: 20px; /* Ajustez la taille des icônes selon vos besoins */
+  font-size: 20px; 
   margin-right: 8px;
+  flex-wrap: nowrap;
+  flex-direction: row; /* Force la direction de flexion à être en ligne (horizontale) */
+  align-items: center;
 }
 
 .contact-info {
@@ -47,7 +50,7 @@
   float: left;
 }
 .contact-info img {
-  height: 20px; /* adjust as needed */
+  height: 20px; 
   margin-right: 10px; 
 }
 .contact-tlf img {
@@ -58,22 +61,29 @@
   flex: 1; 
 }
 .fa-brands.fa-facebook {
+  color:black;
   margin-right: 10px; }
 
 .fa-brands.fa-youtube {
-  
+  color:black;
   margin-right: 10px; 
 }
 
 .fa-brands.fa-instagram {
-  
+  color:black;
   margin-right: 10px;
 }
 
 .fa-brands.fa-tiktok {
+ color:black;
+ 
  
   margin-right: 10px; 
 }
-
+@media (max-width: 576px) {
+  .text-xs {
+      display: none;
+      
+  }}
 
 
