@@ -8,6 +8,9 @@ import { HeaderComponent } from './header/header.component';
 import { ButtonModule } from 'primeng/button';
 import { SousheadComponent } from './soushead/soushead.component';
 import { AnnanceComponent } from './annance/annance.component';
+import { ForumComponent } from './forum/forum.component';
+import { RechercheComponent } from './recherche/recherche.component';
+import { Forum2Component } from './forum2/forum2.component';
 
 
 
@@ -16,7 +19,10 @@ import { AnnanceComponent } from './annance/annance.component';
     AppComponent,
     HeaderComponent,
     SousheadComponent,
-    AnnanceComponent
+    AnnanceComponent,
+    ForumComponent,
+    RechercheComponent,
+    Forum2Component
   ],
   imports: [
     BrowserModule,
