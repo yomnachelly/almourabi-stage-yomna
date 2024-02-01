@@ -1,0 +1,35 @@
+#custom-div {
+    background-color: #f8f9fa;
+    padding: 10px;
+    padding-top: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.custom-div .date {
+    font-size: 12px;
+    color: #6c757d;
+}
+#user{
+    font-size: 1cm;
+   //margin-top: 0cm;
+  }
+h4{
+    gap: 0.5cm;
+}
+/*.likes{
+   font-size: 270px;
+    border-top: 1px solid rgb(133, 207, 234);
+    background-color: #f8f9fa;
+    display: flex; 
+    align-items: center;
+    gap: 0.5cm;}*/
+i{
+    font-size: large;
+    margin-right: 0.5cm;
+    color:#00887e ;
+}
+i:hover{
+    color: #ea750b;
+}

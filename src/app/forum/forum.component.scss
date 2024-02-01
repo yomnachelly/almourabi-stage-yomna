@@ -5,8 +5,16 @@
 //background-color: #8bc1e4; 
 //max-width: 600px; 
 //margin: 50px auto; 
-box-shadow: 0 0 20px rgba(0, 0.2, 0.2, 0.1);
+//box-shadow: 0 0 20px rgba(0, 0.2, 0.2, 0.1);
 font-size: 0.5cm;
+
+}
+.but{
+  font-size: small;
+  display: flex; 
+  align-items: center;
+  gap: 2px;
+  
 }
 .forum{
   
@@ -15,12 +23,22 @@ font-size: 0.5cm;
   justify-content: space-between;
 padding-top: 10px;
   padding-left: 50px;
+  padding-right: 50px;
+}
+#block{
+  display: flex; 
+  align-items: center;
+  gap: 0.2cm;
 }
 #block:hover{
  
 color: #ea750b;
-background-color: #c9ece9; 
+background-color: #e3e8ec; 
 
+}
+#user{
+  font-size: 1cm;
+ //margin-top: 0cm;
 }
 .matiére{
 font-size:0.5cm;
@@ -29,3 +47,15 @@ font-size:0.5cm;
 font-weight: bold;
 border-radius: 25%;
 }
+span{
+  font-size: medium;
+  margin-left: 3px;
+}
+.col-sm-12{
+  border-bottom: 1px groove rgb(17, 185, 179);
+}
+/*div{
+  height: 2.5cm;
+  //align-items: center;
+  //justify-content: center;
+}*/

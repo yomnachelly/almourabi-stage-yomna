@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./forum.component.scss']
 })
 export class ForumComponent {
+ouvrirtitre1() {
+throw new Error('Method not implemented.');
+}
 
 }
