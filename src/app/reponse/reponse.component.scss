@@ -8,6 +8,7 @@
     padding: 0.75rem 0;
     font-weight: 700;
 }
+
 .p-inputgroup {
     display: flex;
     align-items: stretch;
@@ -25,36 +26,26 @@
 .p-button {
 color: #fff;
 }
-.table-container {
-    margin: 0 auto;
-    max-width: 800px;
-  }
 .table {
     display: table;
     width: 100%;
     border-collapse: collapse;
   }
   
-  .table-row {
+  .header {
     display: table-row;
+    background-color: #fff;
   }
   
+  .header-cell,
   .table-cell {
     display: table-cell;
-    padding: 12px;
-    height: 40px;
+    padding: 8px;
+    border: none;
   }
   
-  .header {
-    font-weight: bold;
-    background-color: #fff ;
-  }
-  
-  .table-row:nth-child(even) {
-    background-color: #f1ededea;
-  }
-  .table-cell p-button {
-    margin-bottom: 4px;
-    width: 100%;
+  .separator {
+    border-bottom: 1px solid #ddd;
+    margin: 8px 0;
   }
   
