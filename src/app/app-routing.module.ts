@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: 'forum/topic/:id', component: ReponseComponent },
 ];
 
-@NgModule({
+@gModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
